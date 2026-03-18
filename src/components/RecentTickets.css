@@ -1,0 +1,24 @@
+.ticket-table th{
+    font-size:12px;
+    text-transform:uppercase;
+    color:#94a3b8;
+}
+.ticket-table tbody tr:hover{
+    background:#f8fafc;
+}
+.priority-badge{
+    font-size:12px;
+    font-weight:600;
+}
+.badge-danger{
+    color:#ef4444;
+}
+.badge-warning-dark{
+    color:#f97316;
+}
+.badge-warning{
+    color:#facc15;
+}
+.badge-success{
+    color:#22c55e;
+}

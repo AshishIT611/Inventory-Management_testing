@@ -1,0 +1,38 @@
+.topbar{
+    height:60px;
+    background:#ffffff;
+    border-radius:1px solid #eaeaea;
+}
+.search-box{
+    background:#f1f5f9;
+    border-radius:8px;
+    height:38px;
+    width:280px;
+}
+.search-box input{
+    border:none;
+    outline:none;
+    background:transparent;
+    width:100%;
+    font-size:14px;
+}
+.icon-muted{
+    color:#94a3b8;
+}
+button:hover .icon-muted{
+    color:#2563eb;
+}
+.badge-dot{
+    position:absolute;
+    top:4px;
+    right:4px;
+    width:8px;
+    height:8px;
+    background:red;
+    border-radius:50%;
+}
+.avatar{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+}

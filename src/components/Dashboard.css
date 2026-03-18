@@ -1,0 +1,27 @@
+.dashboard-container{
+    background:#f5f7fb;
+}
+.card{
+    border-radius:12px;
+}
+.icon-box{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.date-box{
+    background:#fff;
+    padding:6px 12px;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+.attention-item{
+    padding:10px;
+    margin-top:8px;
+    border-left:4px solid;
+    background:#f8fafc;
+    border-radius:6px;
+}

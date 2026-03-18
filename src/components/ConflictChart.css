@@ -1,0 +1,17 @@
+.chart-box{
+    position:relative;
+    height:160px;
+}
+.chart-center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-weight:700;
+    font-size:18px;
+}
+.legend-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+}

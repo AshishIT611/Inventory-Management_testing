@@ -1,0 +1,30 @@
+.app-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Sidebar fixed width */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  border-right: 1px solid #eaeaea;
+}
+
+/* Right side */
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar fix */
+.topbar {
+  height: 60px;
+  flex-shrink: 0;
+}
+
+/* Content scroll */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  background: #f5f7fb;
+}

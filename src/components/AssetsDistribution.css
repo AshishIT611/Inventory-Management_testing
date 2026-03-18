@@ -1,0 +1,17 @@
+.assets-distribution{
+  font-size:13px;
+}
+.progress{
+  height:8px;
+  background:#f1f5f9;
+  border-radius:4px;
+}
+.progress-bar{
+  border-radius:4px;
+}
+.dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  display:inline-block;
+}

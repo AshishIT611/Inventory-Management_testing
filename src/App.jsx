@@ -1,22 +1,24 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
-import SignupPage from "./pages/SignupPage";
-import EmailVerification from "./pages/EmailVerification";
-import AccountDetails from "./pages/AccountDetails";
-import ForgotPassword from "./pages/ForgotPassword";
-import ResetPassword from "./pages/ResetPassword";
-import Login from "./pages/Login";
+import "./App.css";
+import Sidebar from "./components/Sidebar";
+import Topbar from "./components/Topbar";
+import Dashboard from "./components/Dashboard";
 const App=()=>{
-    return (
-        <Router>
-            <Routes>
-                <Route path="/login" element={<Login/>}/>
-                <Route path="/account" element={<AccountDetails/>}/>
-                <Route path="/forgot-password" element={<ForgotPassword/>}/>
-                <Route path="/emailverification" element={<EmailVerification/>}/>
-                <Route path="/resetpassword" element={<ResetPassword/>}/>
-                <Route path="/" element={<SignupPage/>}/>
-            </Routes>
-        </Router>
-    );
+  return (
+    <Router>
+        <div className="app-container d-flex">
+            <Sidebar/>
+            <div className="main-section w-100">
+                <Topbar/>
+                <div className="content p-3">
+                    <Routes>
+                        <Route path="/" element={<Dashboard/>}/>
+                        <Route path="/dashboard" element={<Dashboard/>}/>
+                    </Routes>
+                </div>
+            </div>
+        </div>
+    </Router>
+  );
 };
 export default App;
