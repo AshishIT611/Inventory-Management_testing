@@ -4,19 +4,19 @@ const Topbar=()=>{
     return (
         <div className="topbar d-flex justify-content-between align-items-center px-4">
             <div className="d-flex align-items-center gap-3">
-                <button className="btn p-1">
+                <button className="btn p-2">
                     <Menu size={20} className="icon-muted"/>
                 </button>
                 <div className="search-box d-flex align-items-center px-3">
                     <Search size={16} className="me-2 icon-muted"/>
-                    <input type="text" placeholder="Search..."/>
+                    <input type="search" placeholder="Search..."/>
                 </div>
             </div>
-            <div className="d-flex align-items-center gap-4">
-                <button className="btn p-1">
+            <div className="d-flex align-items-center gap-3">
+                <button className="btn p-2">
                     <Moon size={20} className="icon-muted"/>
                 </button>
-                <button className="btn position-relative p-1">
+                <button className="btn position-relative p-2">
                     <Bell size={20} className="icon-muted"/>
                     <span className="badge-dot"></span>
                 </button>

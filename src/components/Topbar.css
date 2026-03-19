@@ -5,9 +5,9 @@
 }
 .search-box{
     background:#f1f5f9;
-    border-radius:8px;
+    border-radius:20px;
     height:38px;
-    width:280px;
+    width:250px;
 }
 .search-box input{
     border:none;
@@ -35,4 +35,5 @@ button:hover .icon-muted{
     width:36px;
     height:36px;
     border-radius:50%;
+    object-fit:cover;
 }
